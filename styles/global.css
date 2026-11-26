@@ -1,0 +1,43 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    font-family: 'DM Serif Display';
+}
+
+/* dm-serif-display-regular - latin */
+@font-face {
+  font-display: swap;
+  font-family: 'DM Serif Display';
+  font-style: normal;
+  font-weight: 400;
+  src: url('/assets/typography/dm-serif-display-v17-latin-regular.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+
+/* manrope-regular - latin */
+@font-face {
+  font-display: swap;
+  font-family: 'Manrope';
+  font-style: normal;
+  font-weight: 400;
+  src: url('/assets/typography/manrope-v23-latin-regular.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+
+.accent-font {
+    font-family: 'Manrope';
+    font-weight: bold;
+}
+
+.d-none {
+    display: none;
+}
+
+.content-limitation {
+    width: 100%;
+    max-width: 1440px;
+} 
+
+button {
+    cursor: pointer;
+    border: none;
+    background-color: inherit;
+}

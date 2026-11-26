@@ -1,0 +1,33 @@
+header {
+    display: flex;
+    justify-content: center;
+    background-color: #FFC107;
+    padding: 10px 16px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo-container {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
+
+.logo-container  img {
+    height: 40px;
+    width: 40px;
+}
+
+.logo-container span {
+    font-size: 20px;
+}
+
+.header-btn-mobile img {
+    height: 32px;
+    width: 32px;
+    opacity: 0;
+}
